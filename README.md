@@ -1,6 +1,9 @@
 # d42-powershell
 Device42 related PowerShell code snippets.
 
+- [Changelog](#changelog)
+- [Snippets](#snippets)
+    - [data_dictionary_one_liner](#data_dictionary_one_liner)
 # Changelog
 ## Patch 0.01 | 2021-8-17
 m-e-w: Updated license agreement. 
