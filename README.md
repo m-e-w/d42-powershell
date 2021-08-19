@@ -10,6 +10,7 @@ m-e-w: Updated license agreement.
 
 ## Path 0.02 | 2021-08-19
 m-e-w: Added one liner to generate .csv(s) of all adminstrators in device42 and audit history login events. 
+
 m-e-w: Updated .gitignore to add config.ps1 to ignore list (file only exists locally to make it easier to copy paste config settings for testing / avoid accidentally uploading real creds).
 
 # Snippets
