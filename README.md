@@ -18,3 +18,10 @@ m-e-w: Updated .gitignore to add config.ps1 to ignore list (file only exists loc
 ### Instructions
 1. Replace username, password, and instance with your own values.
 2. Ctrl+A and paste contents into powershell or run it by calling ./data_dictionary_one_liner.ps1 from within the d42-powershell directory.
+## adminstrator_audit_one_liner
+### Instructions
+1. Replace username, password, and instance with your own values.
+2. Ctrl+A and paste contents into powershell or run it by calling ./adminstrator_audit_one_liner.ps1 from within the d42-powershell directory.
+3. To check for users that haven't logged in, you can import both .csv's to excel and use conditional formatting to highlight users with no login events in audit history. Sample formula is included below. Adjust the ranges to match your set.
+
+        =ISERROR(MATCH(A2, auditlogs!$A$2:$A$577, 0))
